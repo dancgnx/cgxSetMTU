@@ -63,6 +63,7 @@ if __name__ == "__main__":
                         log.error("-- Interface update failed. Aborting")
                         cloudgenix.jd_detailed(res)
                         sys.exit()
+                    log.info(f"-- Interface {args.interface} was set to MTU {args.mtu}")
                     break
             else:
                 log.warn(f"-- Interface {args.interface} not found")
