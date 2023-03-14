@@ -1,3 +1,8 @@
+#local
+
+cloudgenix_settings.py
+elements.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
