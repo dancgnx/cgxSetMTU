@@ -1,2 +1,2 @@
-# setMTU
+# cgxSetMTU
 set MTU to IONs
